@@ -10,9 +10,17 @@ header
 {
   font-family: Courier, serif;
   text-align: center;
-  color: orange;  
+  color: rgba(12, 94, 97, 0.705);  
 }
+
 .image
 {
   width: 100px;
+}
+
+.image_border {
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
 }
