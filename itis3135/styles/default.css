@@ -2,8 +2,8 @@
 body
 {
   font-family: Tahoma, sans-serif;
-  color: silver;
-  background-color: teal;
+  color: rgba(12, 94, 97, 0.705);
+  background-color: #353130;
 }
 
 header
