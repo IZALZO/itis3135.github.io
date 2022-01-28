@@ -32,14 +32,14 @@
       </ol>
       
       <h3>
-        Employee Data in Simple Table
+        Employee Data - Standard Table
       </h3>
       
       <table>
         <tr>
           <th>Name</th>
           <th>Email</th>
-          <th>Years of Service</th>
+          <th>Years of Employment</th>
         </tr>
         <tr>
           <td>Robert Mauney</td>
@@ -76,6 +76,82 @@
           <td>qflowe@remtech.com</td>
           <td>1</td>
         </tr>
+      </table>
+
+      <h3>
+        Employee Data - Complex Table
+      </h3>
+
+      <table>
+        
+        <tr>
+          <th id="position">Position</th>
+          <th id="name">Name</th>
+          <th id="email">Email</th>
+          <th id="year">Years of Employment</th>
+          <th id="salary">Salary</th>
+        </tr>
+       
+        <tr>
+          <td headers="position">CEO</td>
+          <td headers="name">Robert Mauney</td>
+          <td headers="email">rmauney6@uncc.edu</td>
+          <td headers="year"> 3 </td>
+          <td headers="salary"> $92,000</td>
+        </tr>
+        
+        <tr>
+          <td headers="position">Project Manager</td>
+          <td headers="name">Mateo Villagomez</td>
+          <td headers="email">mvillagomez@remtech.com</td>
+          <td headers="year">3</td>
+          <td headers="salary"> $80,000</td>
+        </tr>
+       
+        <tr>
+          <td headers="position" rowspan="3">Programers</td>
+          <td headers="name">Zach Pepper</td>
+          <td headers="email">zpepper@remtech.com</td>
+          <td headers="year">3</td>
+          <td headers="salary" rowspan="3"> $69,000</td>
+        </tr>
+       
+        <tr>
+          <td headers="name">Ben Kopaskie</td>
+          <td headers="year">bkopaskie@remtech.com</td>
+          <td headers="year">3</td>
+        </tr>
+        
+        <tr>
+          <td headers="name">Jose Blanco</td>
+          <td headers="email">jblanco@remtech.com</td>
+          <td headers="year">2</td>
+        </tr>
+        
+        <tr>
+          <td headers="position" rowspan = "2">Logistics</td>
+          <td headers="name">Eric Wallgrens</td>
+          <td headers="email">ewallgrans@remtech.com</td>
+          <td headers="year">2</td>
+          <td headers="salary" rowspan="2">$55,000</td>
+        </tr>
+        
+        <tr>
+          <td headers="name">Quinton Flowe</td>
+          <td headers="email">qflowe@remtech.com</td>
+          <td headers="year">1</td>
+        </tr>
+        
+        <tr>
+          <td headers="year" colspan="3"> Total Years of employemnt</td>
+          <td headers="year">17</td>
+          <td headers="salary"></td>
+        </tr>
+        <tr>
+          <td headers="salary" colspan="4"> Total Salary</td>
+          <td headers="salary">$489,000</td>
+        </tr>
+      
       </table>
     
     </main>
