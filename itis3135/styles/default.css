@@ -56,3 +56,9 @@ tr
 {
   background-color: #06edfd;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
