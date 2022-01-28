@@ -2,8 +2,8 @@
 body
 {
   font-family: 'Trebuchet MS', sans-serif;
-  color: #bfc9cb;
-  background:#252d35;
+  color: #abb3b4;
+  background:#1d2329;
 	margin-left: 200px;
 	margin-right: 200px;
 }
@@ -14,8 +14,8 @@ header, footer
 	margin-bottom: 50px;
   font-family: 'Roboto', sans-serif;
 	text-align: center;
-  color: #ace0af;
-  background:#252d35
+  color: #06edfd;
+  background:#1d2329
 }
 .image
 {
@@ -27,4 +27,15 @@ header, footer
   border-width: 10px;
   border-style: solid;
   border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+	color: #0679fd;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #06edfd;
 }
