@@ -1,21 +1,21 @@
 
 body
 {
-    font-family: 'Trebuchet MS', sans-serif;
-    color: #bfc9cb;
-    background:#252d35;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #bfc9cb;
+  background:#252d35;
 	margin-left: 200px;
 	margin-right: 200px;
 }
 
 header, footer
 {
-    margin-top: 50px;
+  margin-top: 50px;
 	margin-bottom: 50px;
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 	text-align: center;
-    color: #ace0af;
-    background:#252d35
+  color: #ace0af;
+  background:#252d35
 }
 .image
 {
