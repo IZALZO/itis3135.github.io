@@ -42,8 +42,17 @@ a:hover {
 
 table, th, td 
 {
-  border: 1px #06edfd;
+  border: 2px black;
   margin: 1em;
   text-align: center;
-  color: #abb3b4;
+  color: #1d2329;
+}
+th
+{
+  background-color: #06edfd;
+}
+
+tr
+{
+  background-color: #06edfd;
 }
