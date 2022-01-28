@@ -1,7 +1,7 @@
 
 body
 {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Courier New', monospace;
   color: #abb3b4;
   background:#1d2329;
 	margin-left: 200px;
@@ -12,7 +12,7 @@ header, footer
 {
   margin-top: 50px;
 	margin-bottom: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
 	text-align: center;
   color: #06edfd;
   background:#1d2329
