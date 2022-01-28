@@ -1,18 +1,22 @@
 
 body
 {
-  font-family: Tahoma, sans-serif;
-  color: rgba(12, 94, 97, 0.705);
-  background-color: #353130;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #bfc9cb;
+    background:#252d35;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
-header
+header, footer
 {
-  font-family: Courier, serif;
-  text-align: center;
-  color: rgba(12, 94, 97, 0.705);  
+    margin-top: 50px;
+	margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+	text-align: center;
+    color: #ace0af;
+    background:#252d35
 }
-
 .image
 {
   width: 100px;
