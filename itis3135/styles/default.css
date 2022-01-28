@@ -39,3 +39,11 @@ a:hover {
 	text-decoration: none;
 	color: #06edfd;
 }
+
+table, th, td 
+{
+  border: 1px #06edfd;
+  margin: 1em;
+  text-align: center;
+  color: #abb3b4;
+}
