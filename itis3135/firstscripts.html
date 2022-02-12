@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Robert E. Mauney § ITIS3135 § Rackley Mallard First Scripts</title>
+    <link href="styles/default.css" type="text/css" rel="stylesheet">
+    <script src="scripts/defaultscripts.js"></script>
+</head>
+
+    <header>
+      <nav>
+        <a href="https://izalzo.github.io/itis3135.github.io/">Home</a> §
+        <a href="introduction.html">Introduction</a> §
+        <a href="contract.html">Contract</a> §
+        <a href="tables.html">Tables</a> §
+        <a href="form.html">Form</a> §
+        <a href="website_evaluations.html">Website Evaluations</a> §
+        <a href="firstscripts.html">First Scripts</a>
+      </nav>
+    </header>
+
+    <main>
+
+    <h2 style="text-align:center">
+        First Scripts Page
+    </h2>
+    
+    <h3>
+        Please input your information below.
+    </h3>
+    <p>
+      <br>
+      What is your name: <input type="text" id="name" name="name" placeholder="Enter your name">
+      <br>
+      <br>
+      How are you feeling: <input type="text" id="feeling" name="feeling" placeholder="How are you?">
+      <br>
+      <br>
+      <input onclick="firstScript()" type="button" class="submit_button" name="submit" value="Submit"></button>
+    </p>
+    <p id="output"></p>
+    
+    <br>
+    <br>
+
+    <h3>
+      To Calculate tax input information below.
+    </h3>
+    <p>
+      <br>
+      What is your subtotal: <input type="text" id="subtotal" name="subtotal" placeholder="Enter Subtotal">
+      <br>
+      <br>
+      What is the tax ratio: <input type="text" id="tax" name="tax" placeholder="Enter tax">
+      <br>
+      <br>
+      <input onclick="tax()" type="button" class="submit_button" name="submit" value="Submit"></button>
+    </p>
+    <p id="output1"></p>
+
+    <br>
+    <br>
+
+    <h3>
+      To gather the product of 2 numbers.
+    </h3>
+    <p>
+      <br>
+      What is your first number: <input type="text" id="num1" name="num1" placeholder="Enter number">
+      <br>
+      <br>
+      What is the second number: <input type="text" id="num2" name="num2" placeholder="Enter number">
+      <br>
+      <br>
+      <input onclick="product()" type="button" class="submit_button" name="submit" value="Submit"></button>
+    </p>
+
+    <br>
+    <br>
+
+    <h3>
+      Leap year calculator
+    </h3>
+    <p>
+      enter year here:  <input type="text" id="year" name="year" placeholder="Enter year">
+      <input onclick="leapYear()" type="button" class="submit_button" name="submit" value="submit"></button>
+    </p>
+
+    <br>
+    <br>
+
+    <h3>
+      Click me for a random number between 0 and 1 million
+      <input onclick="randomNumberGenerator()" type="button" class="submit_button" name="submit" value="Random Number"></button>
+    </h3>
+
+    <p id="output2"></p>
+
+    <br>
+    <br>
+
+    <h3>
+      Click me for a random color in hex
+      <input onclick="getRandomColor()" type="button" class="submit_button" name="submit" value="Random Color"></button>
+    </h3>
+
+    <p id="output3"></p>
+
+    <br>
+    <br>
+
+    <button onclick="scriptTest()">Test</button>
+
+    <br>
+    <br>
+
+    
+
+    </main>
+
+</body>
+
+
+<footer>
+    
+  <nav>
+    <a href="https://izalzo.github.io/itis3135.github.io/">Home</a> §
+    <a href="https://www.freecodecamp.org/IZALZO">FreeCodeCamp</a> §
+    <a href="https://github.com/IZALZO">GitHub</a> §
+    <a href="https://github.com/IZALZO/itis3135.github.io">GitHub.itis3135</a> §
+    <a href="https://webpages.charlotte.edu/rmauney6/">UNCC Webpage</a>
+  </nav>
+    
+  <a href="company/index.html">REM Technological Industries</a> &copy;2022
+    
+    <p>
+        <a href="https://validator.w3.org/">
+            <img src="images/button_validation_html5.png" class="image" alt="HTML Validation">
+        </a>
+
+        <a href="https://jigsaw.w3.org/css-validator/">
+            <img src="images/button_validation_css.png" class="image" alt="CSS Validation">
+        </a>
+    </p>
+
+</footer>
+</body>
+
+</html>
