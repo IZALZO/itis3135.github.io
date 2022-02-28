@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Robert E. Mauney § ITIS3135 § Rackley Mallard Introduction</title>
+    <title>Robert E. Mauney § ITIS3135 § Rackley Mallard Polygon</title>
     <link href="styles/default.css" type="text/css" rel="stylesheet">
+    <script src="scripts/calculator_try.js"></script>
 </head>
 
     <header>
@@ -23,20 +24,40 @@
     </header>
 
     <main>
-        <h1 style="text-align:center">A small introduction for the founder of the Rackley Mallard</h1>
-        <img class = "image1 image_border" src="images/robert_mauney.jpeg" alt="Robert Mauney">
-        <div>
-          <p>Personal and Profesional Background:</p>
-          <ul>
-            <li>PERSONAL: Born and raised in Mint Hill North Carolina. Have an affinity for anything electronic or mechanical.</li>
-            <li>PROFESSIONAL : Have had quite a few jobs since I was 16. Currently a Manger at AutoZone.</li>
-            <li> ACADEMIC: Graduated from Hickory Grove in 2017. Have attended UNCC since and plan on graduating here.</li>
-            <li>PROGRAMMING/SOFTWARE: First introduced to coding in high school and have enjoyed it since. I know the basic languages such as java, python and c++.</li>
-            <li>From N.C.</li>
-            <li>RANDOM FACT: I drive a 1985 BMW 635csi that I am currently restoring.</li>
-          </ul>
-        </div>
-    </main>
+
+    <h2 style="text-align:center">
+        Calculator.
+    </h2>
+    <div class="calculator">
+      <input type="text" value="">
+          <div class="calc_buttons">
+              <button class="clear" type="button" value="clear">AC</button>
+              <button type="button" class="decimal" value=".">.</button>
+              <button class="equal operator" type="button" value="=">=</button>
+              <br>
+              <button class= "operator" onclick="addition()" value= "+"> + </button>
+              <button class= "operator" onclick="subtration()" value= "-"> - </button>
+              <button class= "operator" onclick="multiplication()" value= "*"> * </button>
+              <button class= "operator" onclick="division()" value= "/"> ÷ </button>
+              <br>
+              <button type= "button" value="7">7</button>
+              <button type= "button" value="8">8</button>
+              <button type= "button" value="9">9</button>
+              <br>
+              <button type= "button" value="4">4</button>
+              <button type= "button" value="5">5</button>
+              <button type= "button" value="6">6</button>
+              <br>
+              <button type= "button" value= "1">1</button>
+              <button type= "button" value= "2">2</button>
+              <button type= "button" value= "3">3</button>
+              <br>
+              <button type="button" value="0">0</button>
+          </div>
+  </div>
+    
+    
+  </main>
 
 </body>
 

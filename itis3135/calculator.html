@@ -1,10 +1,13 @@
+<!--I used the tutorial from free code camp that was in the assignment--> >
+
 <!DOCTYPE html>
 <html lang="en-US">
 
 <head>
     <meta charset="utf-8" />
-    <title>Robert E. Mauney § ITIS3135 § Rackley Mallard Introduction</title>
+    <title>Robert E. Mauney § ITIS3135 § Rackley Mallard Polygon</title>
     <link href="styles/default.css" type="text/css" rel="stylesheet">
+    <script src="scripts/calculator.js"></script>
 </head>
 
     <header>
@@ -16,26 +19,42 @@
         <a href="form.html">Form</a> §
         <a href="website_evaluations.html">Website Evaluations</a> §
         <a href="polygon.html">Polygon</a> §
-        <a href="calculator_try.html">Calculator Attempt</a> §
-        <a href="calculator.html">Calculator</a> §
         <a href="firstscripts.html">First Scripts</a>
       </nav>
     </header>
 
     <main>
-        <h1 style="text-align:center">A small introduction for the founder of the Rackley Mallard</h1>
-        <img class = "image1 image_border" src="images/robert_mauney.jpeg" alt="Robert Mauney">
-        <div>
-          <p>Personal and Profesional Background:</p>
-          <ul>
-            <li>PERSONAL: Born and raised in Mint Hill North Carolina. Have an affinity for anything electronic or mechanical.</li>
-            <li>PROFESSIONAL : Have had quite a few jobs since I was 16. Currently a Manger at AutoZone.</li>
-            <li> ACADEMIC: Graduated from Hickory Grove in 2017. Have attended UNCC since and plan on graduating here.</li>
-            <li>PROGRAMMING/SOFTWARE: First introduced to coding in high school and have enjoyed it since. I know the basic languages such as java, python and c++.</li>
-            <li>From N.C.</li>
-            <li>RANDOM FACT: I drive a 1985 BMW 635csi that I am currently restoring.</li>
-          </ul>
+
+      <h2 style="text-align:center">
+        Calculator.
+      </h2>
+
+      <div class="calculator">
+        <div class="calculator">
+          <div class="calculator__display">0</div>
+    
+          <div class="calculator__keys">
+            <button class="key--operator" data-action="add">+</button>
+            <button class="key--operator" data-action="subtract">-</button>
+            <button class="key--operator" data-action="multiply">&times;</button>
+            <button class="key--operator" data-action="divide">÷</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>0</button>
+            <button data-action="decimal">.</button>
+            <button data-action="clear">AC</button>
+            <button class="key--equal" data-action="calculate">=</button>
+          </div>
         </div>
+      </div>
+    
     </main>
 
 </body>
