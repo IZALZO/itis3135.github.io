@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Robert E. Mauney § ITIS3135 § Rackley Mallard Introduction</title>
+    <title>Robert E. Mauney § ITIS3135 § Rackley Mallard Arrays</title>
     <link href="styles/default.css" type="text/css" rel="stylesheet">
+    <script src="scripts/arrays.js"></script>
 </head>
 
     <header>
@@ -26,19 +27,43 @@
     </header>
 
     <main>
-        <h1 style="text-align:center">A small introduction for the founder of the Rackley Mallard</h1>
-        <img class = "image1 image_border" src="images/robert_mauney.jpeg" alt="Robert Mauney">
-        <div>
-          <p>Personal and Profesional Background:</p>
-          <ul>
-            <li>PERSONAL: Born and raised in Mint Hill North Carolina. Have an affinity for anything electronic or mechanical.</li>
-            <li>PROFESSIONAL : Have had quite a few jobs since I was 16. Currently a Manger at AutoZone.</li>
-            <li> ACADEMIC: Graduated from Hickory Grove in 2017. Have attended UNCC since and plan on graduating here.</li>
-            <li>PROGRAMMING/SOFTWARE: First introduced to coding in high school and have enjoyed it since. I know the basic languages such as java, python and c++.</li>
-            <li>From N.C.</li>
-            <li>RANDOM FACT: I drive a 1985 BMW 635csi that I am currently restoring.</li>
-          </ul>
-        </div>
+      <h2 style="text-align:center">Employee & Salaries Array</h2>
+
+      <label for = "employee">Employee:</label>
+
+		  <select name = "employee" id = "employee">			  
+        <option value = "Robert Mauney">Robert Mauney</option>
+			  <option value = "Mateo Villagomez">Mateo Villagomez</option> 
+			  <option value = "Zach Pepper">Zach Pepper</option> 
+			  <option value = "Ben Kopaskie">Ben Kopaskie</option> 
+			  <option value = "Jose Blanco">Jose Blanco</option> 
+			  <option value = "Eric Wallgrens">Eric Wallgrens</option> 
+        <option value = "Quinton Flowe">Quinton Flowe</option> 
+		  </select> 
+
+      <br>
+      <br>
+
+      <label for = "salary">Salary:</label>
+		  <input type = "number" id = "salary">
+      
+      <br>
+      <br>
+
+      <input type = "button" id = "add" value = "Add to Array">
+		  <input type = "button" id = "average" value = "Display Employees" >
+		  <input type = "button" id = "table" value = "Display Table" >
+      
+      <br>
+      <br>
+		  
+      <div id="result"></div>
+
+      <br>
+      <br>
+      <div id="result2"></div>
+		  <table id="salaries_table"></table>
+
     </main>
 
 <footer>
@@ -54,11 +79,11 @@
   <a href="company/index.html">REM Technological Industries</a> &copy;2022
     
     <p>
-        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fizalzo.github.io%2Fitis3135.github.io%2Fitis3135%2Fintroduction.html">
+        <a href='https://validator.w3.org/check?uri=' + location.href>
             <img src="images/button_validation_html5.png" class="image" alt="HTML Validation">
         </a>
 
-        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fizalzo.github.io%2Fitis3135.github.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+        <a href='https://jigsaw.w3.org/css-validator/check?uri=' + location.href>
             <img src="images/button_validation_css.png" class="image" alt="CSS Validation">
         </a>
     </p>
