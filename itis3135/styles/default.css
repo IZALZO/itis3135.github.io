@@ -188,3 +188,16 @@ color: #fdc306;
 .slider-inner img.active{
   display:inline-block;
 }
+.image_swap li
+{
+  padding-right: 10px;
+	display: inline;
+  text-align: center;
+}
+
+.image_swap h1, h2, ul, p, img
+{
+	margin: 0;
+	padding: 0;
+  text-align: center;
+}
