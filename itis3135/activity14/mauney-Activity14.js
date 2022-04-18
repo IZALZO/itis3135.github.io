@@ -3,6 +3,15 @@ $(document).ready(function() {
         $.ajax({
             url:"json_files/" + $(this).children("a").attr("title") + ".json",
             dataType:"json",
+            beforeSend: function() 
+            {
+                $("#speakers").html("Loading...");
+            },
+            timeout: 10000,
+            error: function(xhr, status, error) 
+            {
+                alert("Error: " + xhr.status + " - " + error);
+            },
             success: function(data)
             {
                 $.each(data, function()
