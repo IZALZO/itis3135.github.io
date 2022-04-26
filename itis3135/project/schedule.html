@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Schedule</title>
+	<link href="styles/project.css" rel="stylesheet" type="text/css">
+    <title>jQuery UI Datepicker - Default functionality</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <link href="styles/jquery-ui.css" rel="stylesheet" type="text/css">
+    <script src="scripts/calnder.js"></script>
+</head>
+<body>
+	<header>
+        
+                <h1>Old Spool Customs</h1>
+                <h2>Address: 5708 Indiantail-Fairview Rd. Hemby Brdige N.C. 28079</h2>
+                <h2>Phone: 704-995-0278</h2>
+            
+        <img src="images/oldSpool.jpg" alt="" title="Old Spool" class="center">
+        <nav>
+            <a href="home.html">Home</a> §
+            <a href="parts_finder.html">Performance</a> §
+            <a href="price_calc.html">Pricing</a> §
+            <a href="schedule.html">Schedule</a> §
+            <a href="images.html">Image Gallery</a>
+        </nav>
+	</header>
+<main>
+        <h3>Schedule an apointment</h3>
+        <form action="#">
+            Full Name: 
+            <label for = "firstname"><input type = "text" id = "firstname" required placeholder = "First Name"></label>
+            <label for = "lastname"><input type = "text" id = "lastname" required placeholder = "Last Name"></label>
+        
+            <br>
+            <br>
+
+            Phone Number: +1
+            <label for="phone_number"><input type="text" id = "phone_number" required placeholder = "(704)-555-5555"></label>
+        
+            <br>
+            <br>
+
+            Email Address: 
+            <label for = "email"><input type = "text" id = "email" required placeholder = "example@email.com"></label>
+        
+            <br>
+            <br>
+
+            Breif description of work required:
+            <br>
+            <textarea class="input-field" id="request" id= "work" rows="5" cols="50"></textarea>
+            
+            <br>
+            <br>
+
+            What kind of vehicle do you own?
+            <label for = "role"><select name = "position" id = "role">
+                <option value = "project_manager">BMW</option>
+                <option value = "programer">Mercedes</option>
+                <option value = "logistics">Porsche</option>
+                <option value = "janatorial">Audi</option>
+                <option value = "janatorial">VolksWagen</option>
+            </select></label>
+        
+            <br>
+            <br>
+
+            <p>Date: <input type="text" id="datepicker"></p>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+
+            <ul>
+                <li>
+                Would you like to be added to our mailing list?
+                </li>
+            </ul>
+            <input id = "yes" type = "radio" name = "yes/no" value = "yes" checked> Opt In
+            <input id = "no" type = "radio" name = "yes/no" value = "yes"> Opt Out
+      
+        </form> 
+    
+
+  
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
