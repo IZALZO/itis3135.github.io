@@ -79,3 +79,20 @@ a:hover {
 .slider-inner img.active{
   display:inline-block;
 }
+
+table, th, td 
+{
+  border: 2px black;
+  margin: 1em;
+  text-align: center;
+  color: #1d2329;
+}
+th
+{
+  background-color: #06edfd;
+}
+
+tr
+{
+  background-color: #06edfd;
+}
